@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Bird</title>
+    <link rel="stylesheet" href="./style/game.css">
+</head>
+    <body style=" background-image: url(./images/bg3.jpg);">
+
+    <div style=" float: left;">
+        <div class="div1">
+            <h2>Welcome: 
+                <span class="nameId">
+                    0
+                </span>
+            </h2>
+            
+        </div>
+    
+        <div class="div2">
+            <h2>Score: 
+                <span class="scoreId">
+                    0
+                </span>
+            </h2>
+        </div>
+    
+        <div class="div3">
+            <h2>Time Limit: 
+                <span class="timeId">
+                    60
+                </span>
+            </h2>
+        </div>
+    
+        <div class="div4"  >
+            <h2>Birds Killed: 
+                <span class="killId">
+                    0
+                </span>
+            </h2>
+        </div>
+    
+    </div> <br>
+
+    <div class="div5" >
+        <img src="./images/welcome.gif" width="100px" height="100px" style="margin: auto; margin-left: 140px;"> <br>
+        <p>Welcome
+            <span class="name">
+
+            </span> <br>
+        </p>
+        
+        <p>Your Last Score is: 
+            <span class="score">
+
+            </span> <br>
+        </p>
+
+        <p>Your Last Visit was in: 
+            <span class="date">
+
+            </span> <br>
+        </p>
+        
+        <h3 style="text-align: center;">I Hope You Enjoy The Game</h3>
+        <h4 style="text-align: center;">You Win The Game by Scoring 50 Points or More Under 1 Minute</h4>
+
+        <button>start game</button>
+    </div>
+
+    <div class="div6" style="display: none;">
+        <img src="./images/sad.gif" width="100px" height="100px" style="margin: auto; margin-left: 140px;"> <br>
+        <h3 style="text-align: center;">You Lost</h3>
+        <p>Your Score is: 
+            <span class="loseScore">
+
+            </span> <br>
+        </p>
+        <button name="loseBtn" onClick="window.location.reload(true)">Play Again</button>
+
+
+    </div>
+
+    <div class="div7" style="display: none;">
+        <img src="./images/happy.gif" width="100px" height="100px" style="margin: auto; margin-left: 140px;"> <br>
+        <h3 style="text-align: center;">You win</h3>
+        <p>Your Score is: 
+            <span class="winScore" >
+
+            </span> <br>
+        </p>
+        <button name="loseBtn" onClick="window.location.reload(true)">Play Again</button>
+
+
+    </div>
+    
+    
+
+   
+
+    
+   <script src="./scripts/game.js"></script> 
+</body>
+</html>

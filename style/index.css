@@ -1,0 +1,46 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    
+}
+
+.div1{
+    
+    border-radius: 25px;
+    margin: auto;
+    width: 30%;
+    height: 270px;
+    padding: 10px;
+    background-color: rgb(178, 241, 241, 0.5);
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    margin-top: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 80px;
+    
+}
+
+input{
+    border-radius: 5px;
+    margin-left: 118px;
+}
+
+button{
+    border-radius: 25px;
+    margin-left: 140px;
+    width: 100px; 
+    margin-top: 10px;
+    color: rgb(64, 228, 173);
+    border-style: solid black 2px;
+    border-color: black;
+}

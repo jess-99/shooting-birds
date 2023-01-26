@@ -1,0 +1,167 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    
+}
+
+.div1{
+    
+    border-radius: 25px;
+    margin-left: 55px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(178, 241, 241, 0.5);
+}
+
+.div2{
+    
+    border-radius: 25px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(178, 241, 241, 0.5);
+}
+
+.div3{
+    
+    border-radius: 25px;
+    margin-left: 113px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(178, 241, 241, 0.5);
+}
+
+.div4{
+    
+    border-radius: 25px;
+    margin-left: 125px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(178, 241, 241, 0.5);
+}
+
+.div5
+{
+    background-color: rgb(178, 241, 241, 0.5);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    width: 30%;
+    height: 400px;
+    padding: 10px;
+    top: 0;
+    position: absolute;
+    transform: translate(100%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.9s, top 0.9s;
+}
+
+.popUp
+{
+    top: 40%;
+    visibility: visible;
+    transform: translate(100%, -50%) scale(1);
+}
+
+.div6
+{
+    background-color: rgb(178, 241, 241, 0.5);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    height: 250px;
+    padding: 10px;
+    z-index: 9;
+}
+
+.div7
+{
+    background-color: rgb(178, 241, 241, 0.5);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    height: 250px;
+    padding: 10px;
+}
+
+button{
+    border-radius: 25px;
+    margin-left: 140px;
+    width: 100px; 
+    margin-top: 10px;
+    color: rgb(64, 228, 173);
+    border-style: solid black 2px;
+    border-color: black;
+}
+
+h2{
+    
+    margin-left: 10px;
+    margin-top: 2.5px;
+    display: inline-block;
+    
+    font-weight: bolder;
+    color: rgb(25, 189, 189);
+}
+
+.bird
+{
+    width: 200px;
+    position: absolute;
+}
+
+.bigBird
+{
+    height: 200px;
+}
+
+.midBird
+{
+    height: 200px;
+}
+
+.smallBird
+{
+    height: 200px;
+}
+
+.bomb
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.boom
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.invesible
+{
+    visibility: hidden;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dis
+{
+    display: none;
+}
+
+.nameId, .name, .scoreId, .timeId, .killId, .score, .date, .loseScore, .winScore
+{
+    font-family: 'Times New Roman', Times, serif;
+}
